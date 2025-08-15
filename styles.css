@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Table Styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid orange;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+th {
+  background-color: #888888;
+  color: white;
+}
+
+.sub-total-text {
+  text-align: right;
+}
+
+/* Flex Gallery Styling */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.gallery img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
